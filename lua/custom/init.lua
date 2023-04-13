@@ -6,7 +6,7 @@
 --   command = "tabdo wincmd =",
 -- })
 vim.lsp.buf.hover()
-vim.o.colorcolumn = "80"
+-- vim.o.colorcolumn = "120"
 vim.o.cursorcolumn = true
 vim.o.Cursorline = true
 vim.o.cursorline = true
@@ -17,6 +17,7 @@ vim.cmd [[
    augroup END
 
 ]]
+vim.g.loaded_python3_provider = 1
 
-vim.cmd("highlight CursorLine guibg=#282828 guifg=#ffff00")
+-- vim.cmd("highlight CursorLine guibg=#282828 guifg=#ffff00")
 
